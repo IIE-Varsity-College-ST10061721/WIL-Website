@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #642365;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.help-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+    .hero-section .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+.donation-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.donation-card {
+    background-color: #642365;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+    .donation-card h2 {
+        margin-bottom: 20px;
+    }
+
+.paypal-button {
+    background-color: #FFDD00;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.item-donations {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.items-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-column {
+    width: 45%;
+    text-align: left;
+}
+
+.footer-content {
+    text-align: center;
+    background-color: #642365;
+    color: white;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    ul li {
+        margin-bottom: 10px;
+    }
