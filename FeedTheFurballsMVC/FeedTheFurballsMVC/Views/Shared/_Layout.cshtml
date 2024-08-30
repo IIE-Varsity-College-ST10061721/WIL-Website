@@ -85,6 +85,22 @@
                 .footer a:hover {
                     text-decoration: underline;
                 }
+
+        .footer-pattern {
+            background-image: url('footer.png');
+            background-repeat: repeat-x;
+            background-size: auto;
+            background-position: bottom;
+        }
+
+
+        .navbar-logo {
+            height: 100px; /* Adjust to desired height */
+            max-height: 100%; /* Ensures it doesn't exceed the navbar height */
+            width: auto; /* Keeps the aspect ratio intact */
+            margin: auto 0; /* Centers the logo vertically */
+        }
+
     </style>
 </head>
 <body>
@@ -92,7 +108,9 @@
         <nav class="navbar navbar-expand-md">
             <div class="navbar navbar-expand-md">
                 <div class="container">
-                    <a class="navbar-brand" href="#"><img src="path/to/logo.png" alt="Logo" /></a>
+                    <a class="navbar-logo" asp-controller="Admin" asp-action="Login">
+                        <img src="~/images/ftflogo2-white.png" alt="Logo" />
+                    </a>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
@@ -116,10 +134,19 @@
     <footer class="footer">
         <p>&copy; 2024 Feed the Furballs. All Rights Reserved.</p>
         <ul class="list-inline">
-            <li class="list-inline-item"><a href="#">Facebook</a></li>           
-            <li class="list-inline-item"><a href="#">Twitter</a></li>
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/YourPage" target="_blank">
+                    <img src="~/images/facebook-icon.png" alt="Facebook" class="social-icon" />
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://twitter.com/YourProfile" target="_blank">
+                    <img src="~/images/twitter-icon.png" alt="Twitter" class="social-icon" />
+                </a>
+            </li>
         </ul>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

@@ -1,8 +1,33 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="home-container">
+    <!-- Logo Section -->
+    <div class="logo-section">
+        <img src="~/images/ftflogo.png" alt="Feed the Furballs Logo" />
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="introduction">
+        <h1>Welcome to Feeding the Furballs</h1>
+        <p>Our mission is to support and care for stray and abandoned animals. Join us in making a difference!</p>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="call-to-action">
+        <a href="#" class="btn btn-primary">Donate Now</a>
+        <a href="#" class="btn btn-secondary">Become a Volunteer</a>
+    </div>
+
+    <!-- Featured Section -->
+    <div class="featured-section">
+        <h2>Our Latest Rescues</h2>
+        <div class="gallery">
+            <!-- Replace these with the actual image paths -->
+            <img src="~/images/rescue1.jpg" alt="Rescue Image 1" />
+            <img src="~/images/rescue2.jpg" alt="Rescue Image 2" />
+            <img src="~/images/rescue3.jpg" alt="Rescue Image 3" />
+        </div>
+    </div>
 </div>

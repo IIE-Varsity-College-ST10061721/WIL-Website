@@ -66,6 +66,13 @@ body {
     text-align: left;
 }
 
+.footer {
+    background-image: url('your-pattern-image.png');
+    background-repeat: repeat-x; /* Repeat horizontally */
+    background-position: bottom; /* Align at the bottom */
+    background-size: auto 50px; /* Adjust height to fit as needed */
+}
+
 .footer-content {
     text-align: center;
     background-color: #642365;
@@ -80,4 +87,104 @@ ul {
 
     ul li {
         margin-bottom: 10px;
+    }
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #642365;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+    .btn-primary:hover {
+        background-color: #521c4d;
+    }
+.logo-section img {
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+.introduction {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+    .introduction h1 {
+        color: #642365;
+        font-size: 2.5em;
+    }
+
+    .introduction p {
+        font-size: 1.2em;
+        color: #666;
+    }
+
+.call-to-action {
+    text-align: center;
+    margin: 30px 0;
+}
+
+    .call-to-action .btn {
+        margin: 10px;
+        padding: 10px 20px;
+    }
+
+.featured-section {
+    margin: 40px auto;
+    text-align: center;
+}
+
+    .featured-section h2 {
+        color: #642365;
+        margin-bottom: 20px;
+    }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+    .gallery img {
+        max-width: 150px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+.social-icon {
+    width: 30px; /* Adjust size as needed */
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+    .social-icon:hover {
+        transform: scale(1.1); /* Slight zoom effect on hover */
     }

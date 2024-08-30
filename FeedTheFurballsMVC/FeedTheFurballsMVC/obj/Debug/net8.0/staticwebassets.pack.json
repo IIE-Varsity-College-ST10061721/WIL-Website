@@ -13,6 +13,54 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\eukanuba.png",
+      "PackagePath": "staticwebassets\\images\\eukanuba.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\facebook-icon.png",
+      "PackagePath": "staticwebassets\\images\\facebook-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\footer-edit.png",
+      "PackagePath": "staticwebassets\\images\\footer-edit.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\footer.png",
+      "PackagePath": "staticwebassets\\images\\footer.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\ftflogo.png",
+      "PackagePath": "staticwebassets\\images\\ftflogo.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\ftflogo2-white.png",
+      "PackagePath": "staticwebassets\\images\\ftflogo2-white.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\hills.png",
+      "PackagePath": "staticwebassets\\images\\hills.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\iams.png",
+      "PackagePath": "staticwebassets\\images\\iams.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\marltons.png",
+      "PackagePath": "staticwebassets\\images\\marltons.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\pethealthcare.png",
+      "PackagePath": "staticwebassets\\images\\pethealthcare.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\royalcanin.png",
+      "PackagePath": "staticwebassets\\images\\royalcanin.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\twitter-icon.png",
+      "PackagePath": "staticwebassets\\images\\twitter-icon.png"
+    },
+    {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
