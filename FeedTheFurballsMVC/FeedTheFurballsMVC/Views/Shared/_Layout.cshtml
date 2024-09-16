@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - Feed the Furballs</title>
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -117,6 +118,7 @@
                             <li class="nav-item"><a class="nav-link" asp-controller="Help" asp-action="Index">How Can You Help?</a></li>
                             <li class="nav-item"><a class="nav-link" asp-controller="Supporters" asp-action="Index">Our Suppawters</a></li>
                             <li class="nav-item"><a class="nav-link" asp-controller="Gallery" asp-action="Index">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Donation" asp-action="Index">Donation Goal</a></li>
                             <li class="nav-item"><a class="nav-link" asp-controller="Contact" asp-action="Index">Contact Us</a></li>
                         </ul>
                     </div>
@@ -135,12 +137,12 @@
         <p>&copy; 2024 Feed the Furballs. All Rights Reserved.</p>
         <ul class="list-inline">
             <li class="list-inline-item">
-                <a href="https://www.facebook.com/YourPage" target="_blank">
+                <a href="https://www.facebook.com/feedingthefurballs" target="_blank">
                     <img src="~/images/facebook-icon.png" alt="Facebook" class="social-icon" />
                 </a>
             </li>
             <li class="list-inline-item">
-                <a href="https://twitter.com/YourProfile" target="_blank">
+                <a href="https://x.com/feedthefurballs" target="_blank">
                     <img src="~/images/twitter-icon.png" alt="Twitter" class="social-icon" />
                 </a>
             </li>

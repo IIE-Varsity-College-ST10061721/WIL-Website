@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\Labrador 2.png",
+      "PackagePath": "staticwebassets\\images\\Labrador 2.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\Labrador.png",
+      "PackagePath": "staticwebassets\\images\\Labrador.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\Multi-Puppies.png",
+      "PackagePath": "staticwebassets\\images\\Multi-Puppies.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\admin-dog.png",
+      "PackagePath": "staticwebassets\\images\\admin-dog.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\doberman-dog.png",
+      "PackagePath": "staticwebassets\\images\\doberman-dog.png"
+    },
+    {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\eukanuba.png",
       "PackagePath": "staticwebassets\\images\\eukanuba.png"
     },
@@ -59,6 +79,10 @@
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\twitter-icon.png",
       "PackagePath": "staticwebassets\\images\\twitter-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\yorkie-dog.png",
+      "PackagePath": "staticwebassets\\images\\yorkie-dog.png"
     },
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\js\\site.js",
