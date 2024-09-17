@@ -1,0 +1,53 @@
+﻿@model FeedTheFurballsMVC.Models.DonationViewModel
+<div class="container">
+    <h1>Donation Goal</h1>
+    <canvas id="donationChart" width="400" height="400"></canvas>
+    <p>Month: September</p>
+    <p>Monthly Goal: @Model.Goal.ToString("C")</p>
+    <p>Total Monthly Donations: @Model.TotalDonations.ToString("C")</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var ctx = document.getElementById('donationChart').getContext('2d');
+    var donationChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Donations', 'Remaining'],
+            datasets: [{
+                data: [@Model.TotalDonations, @Model.Remaining],
+                backgroundColor: ['#642365', '#d2b6dc'],
+                hoverOffset: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false, // Ensure it's false
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                }
+            }
+        }
+    });
+
+</script>
+<div>
+    <p><span style="color: #642365;">■ Donations</span></p>
+    <p><span style="color: #d2b6dc;">■ Remaining</span></p>
+</div>
+
+<style>
+    h1 {
+        color: #642365;
+        text-align: center;
+    }
+
+    canvas {
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0 auto;
+    }
+
+</style>
+

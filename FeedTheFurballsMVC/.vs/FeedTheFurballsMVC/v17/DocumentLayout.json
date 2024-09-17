@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe (1)\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe (1)\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\help\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\help\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe (1)\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\donation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\donation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe (1)\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Help\\Index.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Help\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Help\\Index.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Help\\Index.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAgwGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:17:02.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Donation\\Index.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Donation\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Donation\\Index.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Donation\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:16:52.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:15:00.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:14:43.742Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
