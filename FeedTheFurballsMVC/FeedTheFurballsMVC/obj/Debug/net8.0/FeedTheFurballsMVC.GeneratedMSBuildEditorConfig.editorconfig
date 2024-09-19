@@ -9,63 +9,67 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FeedTheFurballsMVC
 build_property.RootNamespace = FeedTheFurballsMVC
-build_property.ProjectDir = C:\Users\dillo\Downloads\Website-Aphiwe (1)\Website-Aphiwe\FeedTheFurballsMVC\FeedTheFurballsMVC\
+build_property.ProjectDir = C:\Users\dillo\Downloads\Website-Aphiwe\Website-Aphiwe\FeedTheFurballsMVC\FeedTheFurballsMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\dillo\Downloads\Website-Aphiwe (1)\Website-Aphiwe\FeedTheFurballsMVC\FeedTheFurballsMVC
+build_property.MSBuildProjectDirectory = C:\Users\dillo\Downloads\Website-Aphiwe\Website-Aphiwe\FeedTheFurballsMVC\FeedTheFurballsMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Admin/Login.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Contact/Index.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Donation/Index.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Donation/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Gallery/Index.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Gallery/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Help/Index.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Help/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Home/Index.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Home/Privacy.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Shared/Error.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Supporters/Index.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Supporters/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcG9ydGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/_ViewImports.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/_ViewStart.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dillo/Downloads/Website-Aphiwe (1)/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/dillo/Downloads/Website-Aphiwe/Website-Aphiwe/FeedTheFurballsMVC/FeedTheFurballsMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3hsaz6acya

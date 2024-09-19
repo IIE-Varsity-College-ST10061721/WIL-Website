@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe (1)\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe (1)\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\help\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\help\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe (1)\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\donation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\donation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe (1)\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\dillo\\downloads\\website-aphiwe\\website-aphiwe\\feedthefurballsmvc\\feedthefurballsmvc\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,51 +50,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Help\\Index.cshtml",
-              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Help\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Help\\Index.cshtml",
-              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Help\\Index.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAgwGUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-17T11:17:02.089Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Donation\\Index.cshtml",
-              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Donation\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Donation\\Index.cshtml",
-              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Donation\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-17T11:16:52.938Z"
+              "WhenOpened": "2024-09-19T06:27:45.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAkwG4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-17T11:15:00.507Z"
+              "WhenOpened": "2024-09-19T06:27:08.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Models\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Models\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Models\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Models\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T18:10:27.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T18:02:11.34Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe (1)\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBMAAAAiAAAA",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:42:57.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\dillo\\Downloads\\Website-Aphiwe\\Website-Aphiwe\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-17T11:14:43.742Z",
+              "WhenOpened": "2024-09-18T16:37:36.876Z",
               "EditorCaption": ""
             }
           ]
