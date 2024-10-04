@@ -2,6 +2,24 @@
     ViewBag.Title = "How Can You Help?";
 }
 
+<style>
+    .donate-button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: black;
+        background-color: #D3D3D3; /* Grey background */
+        border: none;
+        border-radius: 5px;
+        text-decoration: none; /* Remove underline */
+        transition: background-color 0.3s;
+    }
+
+        .donate-button:hover {
+            background-color: #E5E4E2; /* Platinum on hover */
+        }
+</style>
+
 <main>
     <section class="intro">
         <div class="image-container">
@@ -21,15 +39,15 @@
                 </div>
                 <div class="method">
                     <h3>Debit Order</h3>
-                    <p>Fill in and submit our <a href="#">Debit Order Form</a></p>
+                    <p>Fill in and submit our <a href="https://www.feedingthefurballs.org/payment-mandate.php">Debit Order Form</a></p>
                 </div>
                 <div class="method">
                     <h3>PayPal</h3>
-                    <button>Donate</button>
+                    <a href="https://www.paypal.com/donate?token=tTC-qDY-__xYc3M0QnigNGXfrQDswbUUTd6Zx10x4IEjkTLUHsHVstdq9y0MKQULk9LUXHczrxbvPG6U" class="donate-button">Donate</a>
                 </div>
                 <div class="method">
                     <h3>Zapper</h3>
-                    <button>Donate</button>
+                    <a href="https://www.zapper.com/payWithZapper/?qr=http%3A%2F%2F2.zap.pe%3Ft%3D8%26i%3D18686%3A16856%3A7%5B34%7C10.00-20.00-50.00-1%7C15%2C61%3A10%5B39%7CZAR%2C38%7CFeeding%20the%20Furballs" class="donate-button">Donate</a>
                 </div>
             </div>
         </div>

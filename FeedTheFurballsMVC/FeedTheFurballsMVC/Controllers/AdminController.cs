@@ -1,9 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FeedTheFurballsMVC.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace FeedTheFurballsMVC.Controllers
 {
     public class AdminController : Controller
     {
+        private readonly AppDbContext _context;
+
+        public AdminController(AppDbContext context)
+        {
+            _context = context;
+        }
+
         [HttpGet]
         public IActionResult Login()
         {
@@ -13,17 +23,28 @@ namespace FeedTheFurballsMVC.Controllers
         [HttpPost]
         public IActionResult Login(string username, string password)
         {
-            // Replace with actual authentication logic
-            if (username == "admin" && password == "password")
+            var adminUser = _context.Admins.SingleOrDefault(u => u.Username == username && u.Password == password);
+
+            if (adminUser != null)
             {
-                // Redirect to admin dashboard after successful login
-                return RedirectToAction("Index", "Admin");
+                return RedirectToAction("Dashboard");
             }
 
-            // Add an error message and return to the login view
             ViewBag.Error = "Invalid credentials.";
             return View();
         }
+
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> AdminDashboard()
+        {
+            var galleries = await _context.Galleries.ToListAsync();
+            return View(galleries); // Pass galleries to the view
+        }
+
     }
 
 }

@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\FeedTheFurballsMVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\Assests\\50521157.png",
+      "PackagePath": "staticwebassets\\Assests\\50521157.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\Assests\\5681.png",
+      "PackagePath": "staticwebassets\\Assests\\5681.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\Assests\\67293208.png",
+      "PackagePath": "staticwebassets\\Assests\\67293208.png"
+    },
+    {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\5681.png",
+      "PackagePath": "staticwebassets\\images\\5681.png"
     },
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\Labrador 2.png",
@@ -39,6 +55,10 @@
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\facebook-icon.png",
       "PackagePath": "staticwebassets\\images\\facebook-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\facebook.png"
     },
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\footer-edit.png",
@@ -79,6 +99,10 @@
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\twitter-icon.png",
       "PackagePath": "staticwebassets\\images\\twitter-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\twitter.png"
     },
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\yorkie-dog.png",

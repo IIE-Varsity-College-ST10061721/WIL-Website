@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\buthe\\Documents\\FTF Website\\Website\\FeedTheFurballsMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\buthe\\documents\\ftf website\\website\\feedthefurballsmvc\\feedthefurballsmvc\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\buthe\\source\\repos\\feedthefurballsmvc\\feedthefurballsmvc\\views\\galleries\\publicgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\galleries\\publicgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\buthe\\documents\\ftf website\\website\\feedthefurballsmvc\\feedthefurballsmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\buthe\\source\\repos\\feedthefurballsmvc\\feedthefurballsmvc\\controllers\\galleriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\controllers\\galleriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\buthe\\documents\\ftf website\\website\\feedthefurballsmvc\\feedthefurballsmvc\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\buthe\\source\\repos\\feedthefurballsmvc\\feedthefurballsmvc\\views\\galleries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\galleries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\buthe\\documents\\ftf website\\website\\feedthefurballsmvc\\feedthefurballsmvc\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\buthe\\source\\repos\\feedthefurballsmvc\\feedthefurballsmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|c:\\users\\buthe\\source\\repos\\feedthefurballsmvc\\feedthefurballsmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E78BB153-2146-4085-A43B-CBE6A815E314}|FeedTheFurballsMVC\\FeedTheFurballsMVC.csproj|solutionrelative:feedthefurballsmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,56 +33,72 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminDashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\buthe\\Documents\\FTF Website\\Website\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Models\\AdminDashboardViewModel.cs",
-              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Models\\AdminDashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\buthe\\Documents\\FTF Website\\Website\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Models\\AdminDashboardViewModel.cs",
-              "RelativeToolTip": "FeedTheFurballsMVC\\Models\\AdminDashboardViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T18:10:27.278Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEQAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T07:19:50.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\buthe\\Documents\\FTF Website\\Website\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Admin\\Login.cshtml",
-              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Admin\\Login.cshtml",
-              "ToolTip": "C:\\Users\\buthe\\Documents\\FTF Website\\Website\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Admin\\Login.cshtml",
-              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Admin\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Galleries\\Index.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Galleries\\Index.cshtml",
+              "ToolTip": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Galleries\\Index.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Galleries\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T18:02:11.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\buthe\\Documents\\FTF Website\\Website\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\buthe\\Documents\\FTF Website\\Website\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "FeedTheFurballsMVC\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:42:57.271Z",
+              "WhenOpened": "2024-10-04T06:59:23.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\buthe\\Documents\\FTF Website\\Website\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Admin\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\buthe\\Documents\\FTF Website\\Website\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Admin\\Dashboard.cshtml*",
-              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Admin\\Dashboard.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Title": "PublicGallery.cshtml",
+              "DocumentMoniker": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Galleries\\PublicGallery.cshtml",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Views\\Galleries\\PublicGallery.cshtml",
+              "ToolTip": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Views\\Galleries\\PublicGallery.cshtml",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Views\\Galleries\\PublicGallery.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T16:37:36.876Z",
+              "WhenOpened": "2024-10-04T06:28:45.106Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GalleriesController.cs",
+              "DocumentMoniker": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Controllers\\GalleriesController.cs",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Controllers\\GalleriesController.cs",
+              "ToolTip": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Controllers\\GalleriesController.cs",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Controllers\\GalleriesController.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAAANgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T06:27:57.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Program.cs",
+              "RelativeDocumentMoniker": "FeedTheFurballsMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\Program.cs",
+              "RelativeToolTip": "FeedTheFurballsMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:42:44.604Z"
             }
           ]
         }
