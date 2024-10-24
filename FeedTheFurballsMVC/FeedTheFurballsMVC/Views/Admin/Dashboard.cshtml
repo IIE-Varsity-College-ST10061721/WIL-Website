@@ -1,66 +1,90 @@
-﻿@{
+﻿@using System.Globalization
+@{
     ViewData["Title"] = "Admin Dashboard";
+}
+@if (TempData["SuccessMessage"] != null)
+
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
 }
 
 <h2>Admin Dashboard</h2>
 
 <div class="tabs">
     <button class="tablink" onclick="openTab(event, 'Gallery')">Manage Gallery</button>
-    <button class="tablink" onclick="openTab(event, 'Items')">Manage Item Donations</button>
     <button class="tablink" onclick="openTab(event, 'Goal')">Manage Donation Goal</button>
 </div>
 
 <div id="Gallery" class="tabcontent">
-    <h3>Manage Gallery</h3>
-    <p>Gallery management functionality goes here.</p>
-    <a href="@Url.Action("Create", "Galleries")" class="btn btn-primary">Add New Image</a>
-
-    @if (Model == null || !Model.Any())
-
-    {
-        <div class="alert alert-warning" role="alert">
-            No images are currently available in the gallery. Please add some images.
-        </div>
-    }
-
-    else
-
-    {
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Image Name</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-
-                {
-                    <tr>
-                        <td>@item.ImageName</td>
-                        <td>
-                            <a href="@Url.Action("Edit", "Galleries", new { id = item.Id })" class="btn btn-secondary">Edit</a>
-                            <a href="@Url.Action("Delete", "Galleries", new { id = item.Id })" class="btn btn-danger">Delete</a>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    }
+    <h3>Manage Gallery</h3>   
+    <a href="@Url.Action("Index", "Galleries")" class="btn btn-primary">Go to Gallery Management</a>
 </div>
 
-
-
-<div id="Items" class="tabcontent" style="display:none;">
-    <h3>Manage Item Donations</h3>
-    <p>Item donation management functionality goes here.</p>
-</div>
 
 <div id="Goal" class="tabcontent" style="display:none;">
     <h3>Manage Donation Goal</h3>
-    <p>Donation goal management functionality goes here.</p>
+
+    <!-- Form to add donation goal -->
+    <form asp-action="Create" asp-controller="Donation" method="post">
+        <div class="form-group">
+            <label for="month">Month:</label>
+            <select name="Month" id="month" class="form-control" required>
+                @for (int i = 1; i <= 12; i++)
+
+                {
+                    <option value="@i">@DateTimeFormatInfo.CurrentInfo.GetAbbreviatedMonthName(i)</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="year">Year:</label>
+            <input type="number" name="Year" id="year" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="goalAmount">Goal Amount:</label>
+            <input type="number" name="GoalAmount" id="goalAmount" class="form-control" required step="0.01" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Donation Goal</button>
+    </form>
+
+    <hr />
+
+    <!-- Table to display existing donation goals with options to update or delete -->
+    <h4>Existing Donation Goals</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Year</th>
+                <th>Goal Amount</th>
+                <th>Total Donations</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var goal in Model.DonationGoals)
+            {
+                <tr>
+                    <td>@DateTimeFormatInfo.CurrentInfo.GetAbbreviatedMonthName(goal.Month)</td>
+                    <td>@goal.Year</td>
+                    <td>@goal.GoalAmount</td>
+                    <td>@goal.TotalDonations</td>
+                    <td>
+                        <a href="@Url.Action("EditGoal", "Donation", new { id = goal.Id })" class="btn btn-warning">Edit</a>
+                        <a href="@Url.Action("DeleteGoal", "Donation", new { id = goal.Id })" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this goal?');">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
+
+
 
 <script>
     function openTab(evt, tabName) {

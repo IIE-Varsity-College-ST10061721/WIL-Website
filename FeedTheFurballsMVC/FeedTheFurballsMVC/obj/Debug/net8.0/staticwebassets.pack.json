@@ -5,18 +5,6 @@
       "PackagePath": "staticwebassets\\FeedTheFurballsMVC.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\Assests\\50521157.png",
-      "PackagePath": "staticwebassets\\Assests\\50521157.png"
-    },
-    {
-      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\Assests\\5681.png",
-      "PackagePath": "staticwebassets\\Assests\\5681.png"
-    },
-    {
-      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\Assests\\67293208.png",
-      "PackagePath": "staticwebassets\\Assests\\67293208.png"
-    },
-    {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -95,6 +83,10 @@
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\royalcanin.png",
       "PackagePath": "staticwebassets\\images\\royalcanin.png"
+    },
+    {
+      "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\tiktok.png",
+      "PackagePath": "staticwebassets\\images\\tiktok.png"
     },
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\images\\twitter-icon.png",

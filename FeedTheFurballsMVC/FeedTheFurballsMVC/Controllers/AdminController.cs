@@ -36,12 +36,18 @@ namespace FeedTheFurballsMVC.Controllers
 
         public IActionResult Dashboard()
         {
-            return View();
+            var model = new AdminDashboardViewModel
+            {
+                Images = _context.Galleries.ToList(), // Fetch gallery data from the database
+                DonationGoals = _context.DonationGoals.ToList() //Fetch donation goals data
+            };
+            return View(model);
         }
 
         public async Task<IActionResult> AdminDashboard()
         {
-            var galleries = await _context.Galleries.ToListAsync();
+            var galleries = await _context.Galleries.ToListAsync();         
+
             return View(galleries); // Pass galleries to the view
         }
 
