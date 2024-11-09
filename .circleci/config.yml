@@ -35,6 +35,3 @@ workflows:
             branches:
               only:
                 - main
-                - Dillon
-                - Luke
-                - Aphiwe
