@@ -1,0 +1,39 @@
+﻿@model IEnumerable<FeedTheFurballsMVC.Models.Gallery>
+@{
+    ViewData["Title"] = "Gallery";
+}
+
+@if (Model == null || !Model.Any())
+{
+    <p>No images are currently available in the gallery.</p>
+}
+else
+{
+    <div class="gallery-container">
+        @foreach (var item in Model)
+        {
+        <div>
+            <img src="@Url.Content(item.ImagePath)" width="50" height="50"/>
+            <p>@item.ImageName</p>
+        </div>
+        }
+
+    </div>
+}
+
+<style>
+    .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gallery-item {
+        margin: 15px;
+    }
+
+    .gallery-img {
+        max-width: 200px;
+        height: auto;
+    }
+</style>
