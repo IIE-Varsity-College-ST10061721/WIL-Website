@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FeedTheFurballsMVC.bundle.scp.css",
-      "PackagePath": "staticwebassets\\FeedTheFurballsMVC.bundle.scp.css"
+      "PackagePath": "staticwebassets\\FeedTheFurballsMVC.8s9643h8xh.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\css\\site.css",
@@ -331,6 +331,10 @@
     {
       "Id": "C:\\Users\\buthe\\source\\repos\\FeedTheFurballsMVC\\FeedTheFurballsMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FeedTheFurballsMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FeedTheFurballsMVC.Microsoft.AspNetCore.StaticWebAssets.props",
