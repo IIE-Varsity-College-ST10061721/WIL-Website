@@ -22,7 +22,7 @@
         @foreach (var goal in Model)
         {
             <tr>
-                <td>@goal.Month</td>
+                <td>@System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(goal.Month)</td>
                 <td>@goal.Year</td>
                 <td>@goal.GoalAmount.ToString("C")</td>
                 <td>@goal.TotalDonations.ToString("C")</td>
@@ -34,4 +34,6 @@
         }
     </tbody>
 </table>
-<a href="@Url.Action("Dashboard", "Admin")" class="btn btn-primary">Back to Admin Dashboard</a>
+
+    <a href="@Url.Action("Dashboard", "Admin")" class="btn btn-primary">Back to Admin Dashboard</a>
+
