@@ -1,0 +1,131 @@
+﻿@model FeedTheFurballsMVC.Models.DonationGoal
+@{
+    ViewData["Title"] = "Donation Goal";
+}
+<div class="container">
+    <h1>Donation Goal</h1>
+
+    <!-- Dropdown for selecting month and year -->
+    <form id="filterForm">
+        <label for="month">Select Month:</label>
+        <select name="month" id="month">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+
+        <label for="year">Select Year:</label>
+        <select name="year" id="year">
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+        </select>
+
+        <button type="button" onclick="filterDonations()">View</button>
+    </form>
+
+    <div id="chartContainer">
+        <canvas id="donationChart" width="400" height="400"></canvas>
+        <p>Total Monthly Donations: <span id="totalDonations"></span></p>
+        <p>Monthly Goal: <span id="goalAmount"></span></p>
+    </div>
+
+    <p id="noDataMessage" style="display:none; color: red;">There is no data for this month.</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Set current month and year as default
+    document.addEventListener("DOMContentLoaded", function() {
+        const today = new Date();
+        document.getElementById("month").value = today.getMonth() + 1;
+        document.getElementById("year").value = today.getFullYear();
+    });
+
+    let donationChart;
+
+    function filterDonations() {
+        const month = document.getElementById("month").value;
+        const year = document.getElementById("year").value;
+
+        fetch(`/Donation/GetDonationGoal?month=${month}&year=${year}`)
+    .then(response => response.json())
+    .then(data => {
+        console.log("Response Data:", data);  // Log the full response to verify its structure
+
+        // Ensure the data is correctly formatted as numbers
+        const totalDonations = Number(data.totalDonations);
+        const goalAmount = Number(data.goalAmount);
+        const remaining = Number(data.remaining);
+
+        // Check if the values are valid numbers
+        if (isNaN(totalDonations) || isNaN(goalAmount) || isNaN(remaining)) {
+            console.error('Invalid data:', data);
+            document.getElementById("chartContainer").style.display = "none";
+            document.getElementById("noDataMessage").style.display = "block";
+        } else {
+            document.getElementById("chartContainer").style.display = "block";
+            document.getElementById("noDataMessage").style.display = "none";
+            document.getElementById("totalDonations").innerText =
+                totalDonations.toLocaleString('en-US', { style: 'currency', currency: 'ZAR' });
+            document.getElementById("goalAmount").innerText =
+                goalAmount.toLocaleString('en-US', { style: 'currency', currency: 'ZAR' });
+
+            // Destroy previous chart instance if exists
+            if (donationChart) donationChart.destroy();
+
+            // Create new chart
+            const ctx = document.getElementById('donationChart').getContext('2d');
+            donationChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Donations', 'Remaining'],
+                    datasets: [{
+                        data: [totalDonations, remaining],
+                        backgroundColor: ['#642365', '#d2b6dc'],
+                        hoverBackgroundColor: ['#501a4e', '#bfa1c3']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        }
+                    }
+                }
+            });
+        }
+    })
+    .catch(error => {
+        console.error("Error fetching donation data:", error);
+        document.getElementById("chartContainer").style.display = "none";
+        document.getElementById("noDataMessage").style.display = "block";
+    });
+
+    }
+
+</script>
+
+<style>
+    h1 {
+        color: #642365;
+        text-align: center;
+    }
+
+    canvas {
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0 auto;
+    }
+</style>
+

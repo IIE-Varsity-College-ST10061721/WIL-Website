@@ -1,27 +1,45 @@
 ﻿@model FeedTheFurballsMVC.Models.DonationGoal
 @using System.Globalization
 
-<h2>Edit Donation Goal</h2>
+@{
+    ViewData["Title"] = "Edit";
+}
 
-<form asp-action="EditGoal" method="post">
+<h1>Edit</h1>
+
+<h4>Donation Goal</h4>
+
+<form asp-action="Edit" method="post">
     <div class="form-group">
         <label for="month">Month:</label>
-        <select name="Month" id="month" class="form-control" required>
+        <select asp-for="Month" class="form-control" required>
             @for (int i = 1; i <= 12; i++)
             {
-                <option value="@i" selected="@(Model.Month == i ? "selected" : null)">@DateTimeFormatInfo.CurrentInfo.GetAbbreviatedMonthName(i)</option>
+                if (Model.Month == i)
+                {
+                    <option value="@i" selected>@DateTimeFormatInfo.CurrentInfo.GetAbbreviatedMonthName(i)</option>
+                }
+                else
+                {
+                    <option value="@i">@DateTimeFormatInfo.CurrentInfo.GetAbbreviatedMonthName(i)</option>
+                }
             }
         </select>
     </div>
 
     <div class="form-group">
         <label for="year">Year:</label>
-        <input type="number" name="Year" id="year" class="form-control" required value="@Model.Year" />
+        <input asp-for="Year" type="number" class="form-control" required />
     </div>
 
     <div class="form-group">
         <label for="goalAmount">Goal Amount:</label>
-        <input type="number" name="GoalAmount" id="goalAmount" class="form-control" required step="0.01" value="@Model.GoalAmount" />
+        <input asp-for="GoalAmount" type="number" class="form-control" required step="1" />
+    </div>
+
+    <div class="form-group">
+        <label for="totalDonation">Total Donation:</label>
+        <input asp-for="TotalDonations" type="number" class="form-control" required step="1" />
     </div>
 
     <button type="submit" class="btn btn-primary">Update Goal</button>

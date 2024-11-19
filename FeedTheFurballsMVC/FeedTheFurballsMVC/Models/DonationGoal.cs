@@ -9,6 +9,8 @@ namespace FeedTheFurballsMVC.Models
         public int Year { get; set; }
         public decimal GoalAmount { get; set; }
         public decimal TotalDonations { get; set; }
+
+        public decimal Remaining => GoalAmount - TotalDonations;
     }
 
 }

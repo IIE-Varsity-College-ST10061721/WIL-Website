@@ -534,3 +534,7 @@ C:\Users\buthe\source\repos\FeedTheFurballsMVC\FeedTheFurballsMVC\bin\Debug\net8
 C:\Users\buthe\source\repos\FeedTheFurballsMVC\FeedTheFurballsMVC\obj\Debug\net8.0\FeedTheF.5BF51F20.Up2Date
 C:\Users\buthe\source\repos\FeedTheFurballsMVC\FeedTheFurballsMVC\obj\Debug\net8.0\FeedTheFurballsMVC.genruntimeconfig.cache
 C:\Users\buthe\source\repos\FeedTheFurballsMVC\FeedTheFurballsMVC\obj\Debug\net8.0\ref\FeedTheFurballsMVC.dll
+C:\Users\buthe\source\repos\FeedTheFurballsMVC\FeedTheFurballsMVC\bin\Debug\net8.0\FeedTheFurballsMVC.staticwebassets.endpoints.json
+C:\Users\buthe\source\repos\FeedTheFurballsMVC\FeedTheFurballsMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\buthe\source\repos\FeedTheFurballsMVC\FeedTheFurballsMVC\obj\Debug\net8.0\staticwebassets\msbuild.FeedTheFurballsMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\buthe\source\repos\FeedTheFurballsMVC\FeedTheFurballsMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
